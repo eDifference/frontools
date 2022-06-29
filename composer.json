@@ -1,0 +1,6 @@
+{
+    "name": "boldcommerce/magento2-frontools-macm1",
+    "description": "Mac M1 compatible Frontools",
+    "license": "MIT",
+    "type": "magento2-component"
+}
