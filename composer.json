@@ -1,6 +1,6 @@
 {
-    "name": "boldcommerce/magento2-frontools-macm1",
-    "description": "Mac M1 compatible Frontools",
+    "name": "snowdog/frontools",
+    "description": "Set of front-end tools for Magento 2, based on Gulp.js",
     "license": "MIT",
     "type": "magento2-component"
 }
