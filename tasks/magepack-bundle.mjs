@@ -14,7 +14,6 @@ function getThemesGlobPattern() {
 }
 
 export default async function() {
-  console.log(env)
   if (!env['c'] && !env['config']) {
     throw 'Please set the config path!'
   }

@@ -12,21 +12,19 @@ import { inheritance as inheritanceTask } from './tasks/inheritance.mjs'
 import { sasslint as sassLintTask } from './tasks/sass-lint.mjs'
 import { setup as setupTask } from './tasks/setup.mjs'
 import { styles as stylesTask } from './tasks/styles.mjs'
-import { watch as watchTask } from './tasks/watch.mjs'
 import magepackBundleTask from './tasks/magepack-bundle.mjs'
 import magepackGenerateTask from './tasks/magepack-generate.mjs'
 
 export const babel = gulp.series(inheritanceTask, babelTask)
 export const clean = cleanTask
 export const csslint = cssLintTask
-export const dev = gulp.series(browserSyncTask, watchTask)
 export const emailfix = emailFixTask
 export const eslint = eslintTask
 export const inheritance = inheritanceTask
 export const sasslint = sassLintTask
 export const setup = setupTask
 export const styles = gulp.series(inheritanceTask, stylesTask)
-export const watch = watchTask
+// export const svg = gulp.series(inheritanceTask, svgTask)
 export const magepackBundle = magepackBundleTask
 export const magepackGenerate = magepackGenerateTask
 
