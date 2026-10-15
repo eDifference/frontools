@@ -1,5 +1,5 @@
 # Magento 2 Frontools for Mac M1
-Set of front-end tools for Magento 2, based on Gulp.js
+Set of front-end tools for Magento 2, based on Gulp.js that works on MAC m1 chips
 
 # Fork
 This is a fork of the original [Snowdog Frontools module](https://github.com/SnowdogApps/magento2-frontools). Since that module is no longer maintained, it's not compatible with the latest Apple Mac M1/M2 chips. Mainly due to Node Sass and PhantomJS dependencies that are incompatable.
